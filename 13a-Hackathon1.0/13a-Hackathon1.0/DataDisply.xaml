@@ -1,0 +1,14 @@
+﻿<Window x:Class="_13a_Hackathon1._0.DataDisply"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_13a_Hackathon1._0"
+        mc:Ignorable="d"
+        Title="DataDisply" Height="470" Width="977.5">
+    <Grid Background="{DynamicResource {x:Static SystemColors.GradientInactiveCaptionBrushKey}}">
+        <DataGrid x:Name="RdataGrid" HorizontalAlignment="Left" Margin="10,50,0,0" VerticalAlignment="Top" Height="382" Width="945" />
+        <Label x:Name="label" Content="Crime Data Table" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="355" Height="40" FontWeight="Bold" FontSize="18.667" FontFamily="Trebuchet MS"/>
+
+    </Grid>
+</Window>
